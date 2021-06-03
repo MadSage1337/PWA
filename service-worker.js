@@ -2,15 +2,15 @@ var cacheName = 'lessons-v1';
 var cacheFile = [
     'index.html',
     'Lessons.js',
-    'lesson.webmanifest',
-    'image/english.jpg',
-    'image/math1.jpg',
-    'image/art.jpg',
-    'image/geography.jpeg',
-    'image/music.jpg',
-    'image/chemistry.jpg',
-    'image/arabic.jpeg',
-    'image/physics.jpg',
+    "lesson.webmanifest",
+    "image/english.jpg",
+    "image/math1.jpg",
+    "image/art.jpg",
+    "image/geography.jpeg",
+    "image/music.jpg",
+    "image/chemistry.jpg",
+    "image/arabic.jpeg",
+    "image/physics.jpg",
     
 ];
 
