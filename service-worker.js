@@ -15,11 +15,19 @@ var cacheFile = [
 ];
 
 self.addEventListener('install', (e) => {
+
     console.log('[Service Worker] Install');
+
     e.waitUntil(
-        cashes.open(cacheName).then((cahe) => {
+
+        caches.open(cacheName).then((cache) => {
+
             console.log('[Service Worker] Caching all the files');
-            return cacheFile.addAll(cacheFiles);
+
+            return cache.addAll(cacheFiles);
+
         })
+
     );
+
 });
