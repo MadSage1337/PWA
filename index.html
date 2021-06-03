@@ -5,13 +5,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="manifest" href="lesson.webmanifest">
 <style>
-	.lesson{
+	.lessons{
 		border: 1px gray solid;
 		padding: 20xp;
 		margin: 20xp;
 		text-align: center;
 	}
 </style>
+<script>
+	if ('serviceWorker' in navigator){
+		navigator.serviceWorker.register('service-worker.js');
+	};
+</script>
 </head>
 <body>
 
