@@ -1,5 +1,5 @@
 var cacheName = 'lessons-v1';
-var cacheFile = [
+var cacheFiles = [
     'index.html',
     'Lessons.js',
     "lesson.webmanifest",
